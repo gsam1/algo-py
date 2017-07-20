@@ -1,0 +1,26 @@
+{
+  "you": {
+    "nbh":["alice","bob","claire"]
+  },
+  "alice": {
+    "nbh":["peggy"]
+  },
+  "bob": {
+    "nbh":["anuj","peggy"]
+  },
+  "claire": {
+    "nbh":["jonny","thom"]
+  },
+  "anuj":{
+    "nbh": []
+  },
+  "jonny":{
+    "nbh": []
+  },
+  "peggy":{
+    "nbh":[]
+  },
+  "thom":{
+    "nbh":[]
+  }
+}
