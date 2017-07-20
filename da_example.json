@@ -1,0 +1,26 @@
+{
+  "start": {
+    "parent": null,
+    "weights": {
+      "a": 6,
+      "b": 2
+    }
+  },
+  "a": {
+    "parent": "start",
+    "weights": {
+      "fin": 1
+    }
+  },
+  "b": {
+    "parent": "start",
+    "weights": {
+      "a": 3,
+      "fin": 5
+    }
+  },
+  "fin": {
+    "parent": null,
+    "weights": {}
+  }
+}
