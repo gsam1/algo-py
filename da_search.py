@@ -35,6 +35,7 @@ class Weighted_Graph:
         processed = []
 
         node = find_lowest_cost_node(costs, processed)
+
         while node is not None:
             cost = costs[node]
             neighbors = self.desc[node]['weights']
@@ -46,7 +47,8 @@ class Weighted_Graph:
 
             processed.append(node)
             node = find_lowest_cost_node(costs, processed)
-            #TODO: Figure out how to return the path
+
+        return costs
 
 
 
